@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Komal Jaiswal</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            font-family: 'Verdana', sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #483248;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        /* Navigation styles */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #702963;
+            padding: 0.8rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1.2rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #ffc72c;
+        }
+
+        /* Main content styles */
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem 2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+        h2 {
+            color: #702963;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        h3 {
+            color: #483248;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            font-size: 1rem;
+        }
+        ul li {
+            margin: 0.5rem 0;
+            padding: 0.5rem 1rem;
+            background-color: #f4f4f9;
+            border-radius: 5px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        ul li:hover {
+            background-color: #ffc72c;
+            transform: scale(1.05);
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #483248;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Hello, I'm Komal Jaiswal</h2>
+        <p>
+            I am an aspiring data analyst with expertise in Python, SQL, and data visualization. I enjoy leveraging data to uncover insights and build impactful solutions.
+            Currently, I am pursuing my MCA at Banarsidas Chandiwala Institute of Information Technology, excelling in both academic and practical projects.
+        </p>
+        <h3>Education</h3>
+        <ul>
+            <li><strong>Galgotia University:</strong>Master of Computer Applications </li>
+            <li><strong>Banarsidas Chandiwala Institute of Information Technology:</strong> Bachelor of Computer Applications</li>
+           
+        </ul>
+        <h3>Skills</h3>
+        <ul>
+            <li><strong>Programming:</strong> Python, SQL, C++, HTML, CSS</li>
+            <li><strong>Data Analysis:</strong> Pandas, NumPy, Power BI</li>
+            <li><strong>Visualization Tools:</strong> Matplotlib, Seaborn, Plotly</li>
+            <li><strong>Web Development:</strong> Streamlit</li>
+            <li><strong>Database Management:</strong> SQL</li>
+            <li><strong>Machine Learning:</strong> Basic algorithms and recommendations</li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2025 Komal Jaiswal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
